@@ -45,7 +45,7 @@ int main(void) {
 
 `manyLayer.getBitmapHandle(L"이미지 경로")`은 `HBITMAP`를 반환하고, `(HBITMAP)LoadImageW(NULL, L"이미지 경로", IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE)`와 같은 기능을 합니다
 <br/>
-이미지를 추가하시려면 `manyLayer.images` 배열에 `{ manyLayer.getBitmapHandle(L"비트맵 경로"), x 좌표, y 좌표, 배율, 출력 안 함 여부 }`를 추가해주시고, 배열의 길이를 위 코드와 같이 추가해주시면 됩니다
+이미지를 추가하시려면 `manyLayer.images` 배열에 `{ HBITMAP, x 좌표, y 좌표, 배율, 출력 안 함 여부 }`를 추가해주시고, 배열의 길이를 위 코드와 같이 추가해주시면 됩니다
 
 #### 출력 결과
 ![image](https://user-images.githubusercontent.com/50160366/202993109-0f7c9809-d0c2-48fa-aacb-a11487ce2cd8.png)
