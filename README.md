@@ -1,13 +1,13 @@
 # ManyLayer
 [ImageLayer](https://github.com/MinSeungHyun/CodeTheCompany) 개조판
 
-
 ## 감사한 분들
 [Seunghyun Min](https://github.com/MinSeungHyun) (ImageLayer를 만들어주셨습니다)
 <br/>
 [Donghyun Lee](https://github.com/ldhhello) (코드를 효율적으로 개선해주셨습니다)
 
 ## 사용법
+> ※주의※ 이 수정본은 아직 기존 레포지토리의 fadeIn, fadeOut 기능을 갖고 있지 않습니다
 
 기본적인 사용법은 ImageLayer와 비슷하지만, 텍스트도 출력할 수 있기에 이름만 바꿔봤습니다
 
