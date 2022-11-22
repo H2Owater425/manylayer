@@ -42,7 +42,7 @@ inline void renderBitmapToBufferDeviceContextHandle(HDC bufferDeviceContextHandl
 	if(image->scale != 0) {
 		const HDC bitmapDeviceContextHandle = CreateCompatibleDC(bufferDeviceContextHandle);
 		const Size bitmapSize = getBitmapSize(image->bitmapHandle);
-		const float scale = image->scale * RESOLUTION_MULTIPLIER;
+		const double scale = image->scale * RESOLUTION_MULTIPLIER;
 
 		SelectObject(bitmapDeviceContextHandle, image->bitmapHandle);
 
