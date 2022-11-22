@@ -39,7 +39,7 @@ typedef struct _ManyLayer {
 	void (*renderAll)(struct _ManyLayer*);
 	void (*applyToDeviceContextHandle)(HDC);
 
-	HBITMAP (*getBitmapHandle)(wchar_t* fileName);
+	HBITMAP (*getBitmapHandle)(const wchar_t* fileName);
 } ManyLayer;
 
 #endif
